@@ -25,10 +25,10 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <!--[if lt IE 9]>
-    <script src="assets/js/vendor/polyfills.js"></script>
+    <script src="/assets/js/vendor/polyfills.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -36,9 +36,13 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header class="header header--primary is-transparent" role="banner">
-        <a href="index.html">
-            <img class="header__logo" src="assets/images/general/logo-mark-white-64x64.png" width="64" height="64" alt="Putter School Logo">
+    {{ if .IsHome }}
+        <header class="header header--primary is-transparent" role="banner">
+    {{ else }}
+        <header class="header header--primary" role="banner">
+    {{ end }}
+        <a href="/">
+            <img class="header__logo" src="/assets/images/general/logo-mark-white-64x64.png" width="64" height="64" alt="Putter School Logo">
         </a>
         <nav class="nav nav--horizontal js-nav-dropdown" role="navigation">
             <ol class="list">

@@ -3,7 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    {{ if .IsHome }}
     <title>Putter School</title>
+    {{ else }}
+    <title>{{ .Title }} - Putter School</title>
+    {{ end }}
     <meta name="description" content="DO WHAT YOU WANT.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

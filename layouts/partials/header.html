@@ -8,6 +8,7 @@
     {{ else }}
     <title>{{ .Title }} - Putter School</title>
     {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
     <meta name="description" content="DO WHAT YOU WANT.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,15 +16,16 @@
     <meta property="og:locale" content="en_GB">
     <meta property="og:title" content="Putter School">
     <meta property="og:description" content="DO WHAT YOU WANT.">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}apple-touch-icon.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="">
+    <meta name="twitter:site" content="@putterschool">
+    <meta name="twitter:creator" content="@nextct">
     <meta name="twitter:title" content="Putter School">
     <meta name="twitter:description" content="DO WHAT YOU WANT.">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}apple-touch-icon.png">
 
     <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">

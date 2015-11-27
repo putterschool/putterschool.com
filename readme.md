@@ -1,6 +1,6 @@
 ### Putter School Website
 
-> [DO WHAT YOU WANT.](https://www.putterschool.com)
+> **[DO WHAT YOU WANT.](https://www.putterschool.com)**
 
 #### Working Locally
 

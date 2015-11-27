@@ -2,6 +2,8 @@
 
 > **[DO WHAT YOU WANT.](https://www.putterschool.com)**
 
+[![Build Status](https://travis-ci.org/putterschool/putterschool.com.svg)](https://travis-ci.org/putterschool/putterschool.com)
+
 #### Working Locally
 
 To work on this project locally, you'll need a copy of

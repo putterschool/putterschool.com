@@ -1,6 +1,6 @@
 ### Putter School Website
 
-> **[DO WHAT YOU WANT.](https://www.putterschool.com)**
+> **[DO WHAT YOU WANT](https://www.putterschool.com)**
 
 [![Build Status](https://travis-ci.org/putterschool/putterschool.com.svg)](https://travis-ci.org/putterschool/putterschool.com)
 

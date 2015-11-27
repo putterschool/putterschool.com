@@ -52,10 +52,10 @@
         </a>
         <nav class="nav nav--horizontal js-nav-dropdown" role="navigation">
             <ol class="list">
-                <li><a href="/about">About</a></li>
-                <li><a href="/course-details">Course Details</a></li>
-                <li><a href="/hall-of-fame">Hall of Fame</a></li>
-                <li><a href="/contact">Contact</a></li>
+                {{ $currentNode := . }}
+                {{ range .Site.Menus.main }}
+                    <li {{ if $currentNode.IsMenuCurrent "main" . }}class="is-active"{{end}}><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
             </ol>
         </nav>
         <div class="header__cta">

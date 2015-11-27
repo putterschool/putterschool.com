@@ -1,11 +1,11 @@
 ### Putter School Website
 
-> https://www.putterschool.com
+> [DO WHAT YOU WANT.](https://www.putterschool.com)
 
 #### Working Locally
 
 To work on this project locally, you'll need a copy of
-[http://gohugo.io/](Hugo), [v0.15](https://github.com/spf13/hugo/releases/tag/v0.15) or above.
+[Hugo](http://gohugo.io/) ([v0.15](https://github.com/spf13/hugo/releases/tag/v0.15) or above).
 
 ```sh
 git clone git@github.com:rawson-properties/developers.git

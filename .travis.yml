@@ -1,0 +1,6 @@
+language: go
+go: 1.5.1
+install:
+  - go get -v github.com/spf13/hugo
+  - hugo version
+script: hugo

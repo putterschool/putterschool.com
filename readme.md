@@ -6,8 +6,7 @@
 
 #### Working Locally
 
-To work on this project locally, you'll need a copy of
-[Hugo](http://gohugo.io/) ([v0.15](https://github.com/spf13/hugo/releases/tag/v0.15) or above).
+To work on this project locally, you'll need a copy of [Hugo](http://gohugo.io/).
 
 ```sh
 git clone git@github.com:putterschool/putterschool.com.git

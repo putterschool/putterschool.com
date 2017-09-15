@@ -16,7 +16,7 @@ hugo server
 
 #### Deployment
 
-The `master` branch is automatically deployed. Magic!
+The `master` branch is automatically deployed on [Netlify](https://www.netlify.com/). Magic!
 
 #### Kudos
 

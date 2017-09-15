@@ -21,4 +21,4 @@ The `master` branch is automatically deployed. Magic!
 
 #### Kudos
 
-Kudos to [@mieliep](https://github.com/mieliep), [@shawnroos](https://github.com/shawnroos) and [@laurenwaller](https://github.com/laurenwaller) for making this happen, as well as [Next](https://github.com/we-are-next) for sponsoring this project.
+Kudos to [@mieliep](https://github.com/mieliep), [@shawnroos](https://github.com/shawnroos) and [@laurenwaller](https://github.com/laurenwaller) for making this happen.

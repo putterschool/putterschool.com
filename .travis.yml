@@ -1,5 +1,0 @@
-language: go
-install:
-  - snap install hugo
-  - hugo version
-script: hugo
